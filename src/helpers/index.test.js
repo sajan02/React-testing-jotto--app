@@ -14,4 +14,8 @@ describe('getLetterMatchCount', () => {
         const letterMatchCount = getLetterMatchCount('parka', secretWord);
         expect(letterMatchCount).toBe(3);
     })
+    test('returns correct count when there same words but not same word', () => {
+        const letterMatchCount = getLetterMatchCount('ytarp', secretWord);
+        expect(letterMatchCount).toBe(5);
+    })
 })
