@@ -1,7 +1,9 @@
 import './App.css';
 import React, { Component } from 'react'
-import Congrats from './Congrats';
-import GuessedWords from './GuessedWords';
+// import Congrats from './Congrats';
+// import GuessedWords from './GuessedWords';
+import GuessedWords from '@bit/sajan9leaps.practice.guessed-words';
+import Congrats from '@bit/sajan9leaps.practice.congrats';
 
 export default class App extends Component {
   render() {
